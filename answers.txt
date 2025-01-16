@@ -1,0 +1,29 @@
+//examples use pseudo code
+
+1. Explain why a number data type added to a string data type returns a string.
+
+   If one of the operands is a string, Java Script treats the "+" operator as a concatination 
+   operator, instead of an an arithmetic operator. JavaScript automatically converts the number 
+   into a string to perform the operation, ensuring everything is the same type.
+
+2. Name a scenario where using the == operator could cause a bug.
+
+let userInput  "0" // A string input from the user
+let isZero  userInput == 0  // close comparison
+
+if isZero 
+  console.log "The input is zero!"  // This will run
+   else 
+  console.log "The input is NOT zero!"
+
+
+3. Name the operator(s) that you find confusing and explain why.
+  
+  I'd say they don't "confuse" me exactly, I'd say I'm still learning them and how to use them.
+
+4. Explain a situation where you would use the Modulus operator and why.
+
+   One of the basic ways to use modulus (%) is with floating-point numbers.
+   Such as: 
+   let result  10.5 % 3; 
+   console.log result  // Output: 1.5

@@ -1,6 +1,6 @@
 // Prevent us from attempting to use variables
 // that are not declared
-"use strict"
+//"use strict"
 
 //MyVar = "Exper": // Attempting to a Var that is not declared
 
